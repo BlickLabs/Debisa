@@ -1,0 +1,276 @@
+
+.logo-navbar{
+	width: 80px;
+	height: auto;
+}
+.logo-link{
+	padding: 0px !important;
+	padding-right: 20px !important;
+	padding-top: 8px !important;
+}
+.navbar{
+	margin-bottom: 0px;
+	z-index:1;
+}
+.navbar-default{
+	border: none;
+	background-color: #FFF;
+	color: #151e34;
+	font-size: 18px;
+	position: fixed;
+    top: 0;
+    width: 100%;
+    border-radius: 0;
+}
+.navbar-default .navbar-toggle {
+    border: none;
+}
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: transparent;
+}
+.navbar-collapse{
+	padding-left: 50px;
+	padding-right: 30px;
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{
+	color: #151e34;
+	background-color: transparent;
+	font-weight: 700;
+}
+.navbar-default .navbar-nav>li>a{
+	color: #151e34;
+}
+.header-container{
+	background: url("../img/photos-03.jpg") center center no-repeat;
+    background-size: cover;
+    text-align: center;
+    height: 80vh;
+}
+.navbar .nav > li {
+z-index: 10000;
+}
+.padding-header{
+	padding-left: 30px;
+	margin-bottom: 0;
+    padding-top: 120px;
+}
+.header-text{
+	text-align: left;
+	list-style: none;
+}
+.header-title{
+	font-size: 75.4px;
+}
+.header-subtitle{
+	font-size: 75.4px;
+	line-height: 60px;
+}
+.header-description{
+	font-size: 34px;
+}
+p {
+    margin: 0 0 0px;
+}
+.black{
+	color: #151e34;
+}
+.white{
+	color: #FFF;
+}
+.trunz-title{
+	color: #3c3c3b;
+	font-size: 26px;
+	padding-bottom: 10px;
+}
+.trunz-description{
+	color: #878787;
+	font-size: 19px;
+	padding-bottom: 60px;
+	padding-right: 30px;
+}
+.trunz-link{
+	width: 180px;
+	background-color: #5a75b4;
+	border-radius: 30px;
+	padding: 5px 10px;
+	text-align: center;
+	font-size: 15px;
+	letter-spacing: 3px;
+}
+.row{
+	margin: 0px;
+}
+.borders{
+	padding-left: 50px;
+	padding-right: 50px;
+}
+.filler{
+	padding-top: 80px;
+	padding-bottom: 80px;
+}
+.text-filler{
+	background-color: #f2f3f4;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+.filler-content{
+	font-size: 30px;
+	color: #3c3c3b;
+	letter-spacing: 1px;
+	text-align: center;
+}
+.trunz-logo{
+	width: 180px;
+	height: auto;
+}
+.image-container{
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+.image-container.one{
+	background: url("../img/photos-06.jpg") center center no-repeat;
+    background-size: cover;
+    text-align: left;
+    padding-left: 30px;
+}
+.image-container.two{
+	background: url("../img/photos-08.jpg") center center no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding-left: 0px;
+}
+.image-container.three{
+	background: url("../img/photos-07.jpg") center center no-repeat;
+    background-size: cover;
+    text-align: right;
+    padding-right: 30px;
+}
+.image-container.dron{
+	background: url("../img/photos-09.jpg") center center no-repeat;
+    background-size: cover;
+    text-align: left;
+    padding-left: 30px;
+    padding-bottom: 200px;
+    padding-top: 120px;
+}
+.image-title{
+	font-size: 42px;
+}
+.image-subtitle{
+	font-size: 88px;
+	line-height: 60px;
+}
+.image-subtitle-dron{
+	font-size: 70px;
+	line-height: 60px;
+}
+.footer-container{
+	background-color: #5a75b4;
+	padding-top: 90px;
+	padding-bottom: 90px;
+}
+.footer-logo{
+	width: 200px;
+	height: auto;
+	margin: auto;
+}
+.footer-links{
+	font-size: 15px;
+}
+.footer-contact{
+	text-align: right;
+	padding-top: 40px;
+	padding-right: 20px;
+}
+.footer-info{
+	text-align: left;
+	padding-top: 20px;
+	padding-left: 20px;
+}
+@media(max-width: 680px){
+    .logo-navbar{
+    	margin: auto;
+    }
+    .navbar-default .navbar-nav>li>a {
+	    text-align: center;
+	}
+	.logo-link{
+		padding-right: 0px !important;
+	}
+	.header-container{
+		height: 70vh;
+	}
+	.header-title{
+		font-size: 25px;
+		padding-bottom: 10px;
+	}
+	.header-subtitle{
+		font-size: 60px;
+		line-height: 53px;
+	}
+	.header-description{
+		font-size: 17px;
+	}
+	.borders{
+		padding-right: 0px;
+		padding-left: 0px;
+	}
+	.trunz-logo{
+		margin: auto;
+		display: block;
+	}
+	.trunz-title{
+		text-align: center;
+	}
+	.trunz-description{
+		text-align: center;
+		padding-right: 0px;
+	}
+	.trunz-link{
+		margin: auto;
+	}
+	.filler-content{
+		padding-right: 20px;
+		padding-left: 20px;
+	}
+	.image-title{
+		font-size: 38px;
+	}
+	.image-subtitle{
+		font-size: 68px;
+		line-height: 60px;
+	}
+	.image-subtitle-dron{
+		font-size: 44px;
+		line-height: 60px;
+	}
+	.image-container{
+		text-align: center !important;
+	}
+	.image-container.one{
+		padding-left: 0px;
+	}
+	.image-container.three{
+		padding-right: 0px;
+	}
+	.image-container.dron{
+		padding-left: 0px;
+		padding-bottom: 100px;
+	}
+	.navbar-collapse{
+		padding-bottom: 10px;
+	}
+}
+@media(max-width: 769px){
+	.footer-contact{
+		text-align: center;
+		padding-top: 30px;
+		padding-right: 0px;
+	}
+	.footer-info{
+		text-align: center;
+		padding-top: 0px;
+		padding-bottom: 20px;
+		padding-left: 0px;
+	}
+}
