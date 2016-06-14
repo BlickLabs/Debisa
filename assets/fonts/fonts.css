@@ -1,0 +1,35 @@
+@font-face {
+  font-family: "Avenir";
+  src: url("../fonts/AvenirLTStd-Book.otf");
+}
+.avenir{
+  font-family: Avenir;
+}
+@font-face {
+  font-family: "AvenirMedium";
+  src: url("../fonts/AvenirLTStd-Medium.otf");
+}
+.avenirMedium{
+  font-family: AvenirMedium;
+}
+@font-face {
+  font-family: "Catamaran";
+  src: url("../fonts/Catamaran-Bold.ttf");
+}
+.catamaran{
+  font-family: Catamaran;
+}
+@font-face {
+  font-family: "CatamaranLight";
+  src: url("../fonts/Catamaran-Light.ttf");
+}
+.catamaranLight{
+  font-family: CatamaranLight;
+}
+@font-face {
+  font-family: "CatamaranMedium";
+  src: url("../fonts/Catamaran-Medium.ttf");
+}
+.catamaranMedium{
+  font-family: CatamaranMedium;
+}
