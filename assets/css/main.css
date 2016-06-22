@@ -1,12 +1,21 @@
 
 .logo-navbar{
-	width: 80px;
+	width: 85px;
 	height: auto;
+}
+.logo-navbar-mobile{
+	display: none;
+}
+.logo-header-mobile{
+	display: none;
+}
+.dron-mobile{
+	display: none;
 }
 .logo-link{
 	padding: 0px !important;
 	padding-right: 20px !important;
-	padding-top: 8px !important;
+	padding-top: 6px !important;
 }
 .navbar{
 	margin-bottom: 0px;
@@ -41,16 +50,27 @@
 	color: #151e34;
 }
 .header-container{
-	background: url("../img/photos-03.jpg") center center no-repeat;
+	background: url("../img/photos-03.jpg") left top no-repeat fixed;
     background-size: cover;
     text-align: center;
     height: 80vh;
+    margin-top: 50px;
 }
 .navbar .nav > li {
 z-index: 10000;
 }
+@media (min-width: 768px){
+.navbar-nav>li>a {
+    padding-top: 17px;
+    padding-bottom: 15px;
+}
+}
+.navbar-default .navbar-toggle .icon-bar {
+	background-color: #5a75b4;
+}
 .padding-header{
-	padding-left: 30px;
+	padding-left: 75px;
+	width: 100%;
 	margin-bottom: 0;
     padding-top: 120px;
 }
@@ -67,6 +87,7 @@ z-index: 10000;
 }
 .header-description{
 	font-size: 34px;
+	padding-left: 4px;
 }
 p {
     margin: 0 0 0px;
@@ -92,7 +113,7 @@ p {
 	width: 180px;
 	background-color: #5a75b4;
 	border-radius: 30px;
-	padding: 5px 10px;
+	padding: 10px 10px;
 	text-align: center;
 	font-size: 15px;
 	letter-spacing: 3px;
@@ -105,18 +126,19 @@ p {
 	padding-right: 50px;
 }
 .filler{
-	padding-top: 80px;
-	padding-bottom: 80px;
+	padding-top: 90px;
+	padding-bottom: 90px;
+	padding-left: 50px;
 }
 .text-filler{
 	background-color: #f2f3f4;
-	padding-top: 30px;
-	padding-bottom: 30px;
+	padding-top: 40px;
+	padding-bottom: 40px;
 }
 .filler-content{
-	font-size: 30px;
+	font-size: 32px;
 	color: #3c3c3b;
-	letter-spacing: 1px;
+	letter-spacing: 0px;
 	text-align: center;
 }
 .trunz-logo{
@@ -124,8 +146,8 @@ p {
 	height: auto;
 }
 .image-container{
-	padding-top: 60px;
-	padding-bottom: 60px;
+	padding-top: 65px;
+	padding-bottom: 65px;
 }
 .image-container.one{
 	background: url("../img/photos-06.jpg") center center no-repeat;
@@ -136,14 +158,14 @@ p {
 .image-container.two{
 	background: url("../img/photos-08.jpg") center center no-repeat;
     background-size: cover;
-    text-align: center;
+    text-align: left;
     padding-left: 0px;
 }
 .image-container.three{
 	background: url("../img/photos-07.jpg") center center no-repeat;
     background-size: cover;
-    text-align: right;
-    padding-right: 30px;
+    text-align: left;
+    padding-right: 40px;
 }
 .image-container.dron{
 	background: url("../img/photos-09.jpg") center center no-repeat;
@@ -151,14 +173,29 @@ p {
     text-align: left;
     padding-left: 30px;
     padding-bottom: 200px;
-    padding-top: 120px;
+    padding-top: 160px;
 }
 .image-title{
 	font-size: 42px;
+	padding-left: 4px;
+}
+.image-title-dron{
+	font-size: 42px;
+}
+.no-float{
+	float: none;
+}
+.margin-right{
+	margin-right: 0px;
+	margin-left: auto;
+}
+.margin-left{
+	margin-left: 0px;
+	margin-right: auto;
 }
 .image-subtitle{
 	font-size: 88px;
-	line-height: 60px;
+	line-height: 70px;
 }
 .image-subtitle-dron{
 	font-size: 70px;
@@ -170,16 +207,17 @@ p {
 	padding-bottom: 90px;
 }
 .footer-logo{
-	width: 200px;
+	width: 170px;
 	height: auto;
 	margin: auto;
 }
 .footer-links{
 	font-size: 15px;
+	padding-bottom: 5px;
 }
 .footer-contact{
 	text-align: right;
-	padding-top: 40px;
+	padding-top: 30px;
 	padding-right: 20px;
 }
 .footer-info{
@@ -189,27 +227,72 @@ p {
 }
 @media(max-width: 680px){
     .logo-navbar{
-    	margin: auto;
+    	display: none;
+    }
+    .navbar-nav{
+    	margin: 0;
+    }
+    .logo-navbar-mobile{
+    	display: block;
+	    width: 85px;
+		height: auto;
+		margin-left: 10px;
+		margin-bottom: 5px;
+    }
+    .dron-mobile{
+    	display: block;
+    }
+    .dron-web{
+    	display: none;
     }
     .navbar-default .navbar-nav>li>a {
 	    text-align: center;
 	}
+	.logo-header-mobile{
+		display: block;
+		margin: auto;
+		width: 150px;
+		height: auto;
+		padding-bottom: 40px;
+	}
 	.logo-link{
 		padding-right: 0px !important;
 	}
+	.navbar-collapse{
+		padding-left: 0px;
+		padding-right: 0px;
+	}
 	.header-container{
-		height: 70vh;
+		height: 80vh;
+		background: url("../img/photos-03.jpg") center top no-repeat;
+		background-size: cover;
+	}
+	.padding-header{
+		padding-left: 30px;
+		padding-top: 80px;
+
+	}
+	.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{
+		color: #FFF;
+		background-color: #5a75b4;
+		font-weight: 700;
 	}
 	.header-title{
-		font-size: 25px;
+		font-size: 20px;
 		padding-bottom: 10px;
+		text-align: center;
+		font-weight: lighter;
 	}
 	.header-subtitle{
-		font-size: 60px;
-		line-height: 53px;
+		font-size: 30px;
+		line-height: 23px;
+		text-align: center;
 	}
 	.header-description{
-		font-size: 17px;
+		font-size: 15px;
+		line-height: 40px;
+		text-align: center;
+		font-weight: lighter;
 	}
 	.borders{
 		padding-right: 0px;
@@ -233,6 +316,9 @@ p {
 		padding-right: 20px;
 		padding-left: 20px;
 	}
+	.filler{
+		padding-left: 0px;
+	}
 	.image-title{
 		font-size: 38px;
 	}
@@ -240,9 +326,19 @@ p {
 		font-size: 68px;
 		line-height: 60px;
 	}
-	.image-subtitle-dron{
+	.image-title-dron.dron-mobile.first{
+		font-size: 30px;
+		line-height: 38px;
+		padding-top: 30px;
+	}
+	.image-title-dron.dron-mobile.high{
 		font-size: 44px;
-		line-height: 60px;
+		line-height: 38px;
+		padding-bottom: 15px;
+	}
+	.image-subtitle-dron.dron-mobile{
+		font-size: 20px;
+		line-height: 24px;
 	}
 	.image-container{
 		text-align: center !important;
@@ -255,11 +351,13 @@ p {
 	}
 	.image-container.dron{
 		padding-left: 0px;
-		padding-bottom: 100px;
+		padding-bottom: 150px;
+		padding-top: 90px;
 	}
-	.navbar-collapse{
-		padding-bottom: 10px;
-	}
+	.image-container.dron{
+	background: url("../img/photos-10.jpg") center center no-repeat;
+    background-size: cover;
+}
 }
 @media(max-width: 769px){
 	.footer-contact{
@@ -272,5 +370,103 @@ p {
 		padding-top: 0px;
 		padding-bottom: 20px;
 		padding-left: 0px;
+	}
+}
+.modal-dialog{
+	width: 80%;
+	padding-top: 10%;
+}
+.modal.fade.in{
+	background-color: #5a75b4;
+}
+.modal-content{
+	background-color: transparent;
+	box-shadow: none;
+	border: none;
+}
+.modal-logo{
+	width: 180px;
+	height: auto;
+}
+.modal-header{
+	border: none;
+}
+.close-img{
+	font-size: 40px;
+	font-weight: 700;
+}
+.close{
+	margin-right: -0px;
+}
+.inputs-style{
+	background-color: transparent;
+	border-radius: 0px;
+	border: none;
+	border-bottom: 2px solid #FFF;
+	font-size: 18px;
+	color: #FFF;
+	margin-top: 40px;
+	padding-left: 0px;
+}
+.inputs-style::placeholder{
+	letter-spacing: 1px;
+	color: #FFF;
+}
+.inputs-style::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #FFF;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+.inputs-style::-moz-placeholder { /* Firefox 19+ */
+  color: #FFF;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+.inputs-style:-ms-input-placeholder { /* IE 10+ */
+  color: #FFF;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+.inputs-style:-moz-placeholder { /* Firefox 18- */
+  color: #FFF;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+.trunz-link-contact{
+	width: 180px;
+	background-color: #42a5f5;
+	border-radius: 30px;
+	margin-top: 30px;
+	padding: 10px 10px;
+	text-align: center;
+	font-size: 15px;
+	letter-spacing: 3px;
+	border: none;
+	text-transform: uppercase;
+}
+.trunz-link-contact:hover{
+	width: 180px;
+	background-color: #42a5f5;
+	border-radius: 30px;
+	margin-top: 30px;
+	padding: 10px 10px;
+	text-align: center;
+	font-size: 15px;
+	letter-spacing: 3px;
+	border: none;
+	color: #FFF;
+	text-transform: uppercase;
+}
+@media(max-width: 680px){
+	.close-img{
+		font-size: 20px;
+		font-weight: 700;
+	}
+	.modal-dialog{
+		width: auto;
+		padding-top: 10%;
+	}
+	.inputs-style{
+		font-size: 14px;
 	}
 }
