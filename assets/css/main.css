@@ -52,11 +52,12 @@ z-index: 10000;
 .padding-header{
 	padding-left: 30px;
 	margin-bottom: 0;
-    padding-top: 120px;
 }
 .header-text{
 	text-align: left;
 	list-style: none;
+	margin-top: 40vh;
+	transform: translateY(-50%);
 }
 .header-title{
 	font-size: 75.4px;
@@ -80,33 +81,37 @@ p {
 .trunz-title{
 	color: #3c3c3b;
 	font-size: 26px;
-	padding-bottom: 10px;
-}
-.trunz-description{
-	color: #878787;
-	font-size: 19px;
-	padding-bottom: 60px;
-	padding-right: 30px;
+	margin-top: 0;
 }
 .trunz-link{
 	width: 180px;
 	background-color: #5a75b4;
 	border-radius: 30px;
-	padding: 5px 10px;
+	margin-top: 70px;
+	padding: 9px 10px;
 	text-align: center;
 	font-size: 15px;
-	letter-spacing: 3px;
+	letter-spacing: 2px;
 }
 .row{
 	margin: 0px;
+}
+.row.center-cols {
+	text-align: center;
+}
+.row.center-cols > div {
+	display: inline-block;
+	float: none;
+	text-align: initial;
+	vertical-align: top;
 }
 .borders{
 	padding-left: 50px;
 	padding-right: 50px;
 }
 .filler{
-	padding-top: 80px;
-	padding-bottom: 80px;
+	padding-top: 140px;
+	padding-bottom: 100px;
 }
 .text-filler{
 	background-color: #f2f3f4;
@@ -127,6 +132,10 @@ p {
 	padding-top: 60px;
 	padding-bottom: 60px;
 }
+.image-container div {
+	display: inline-block;
+	text-align: left;
+}
 .image-container.one{
 	background: url("../img/photos-06.jpg") center center no-repeat;
     background-size: cover;
@@ -134,16 +143,15 @@ p {
     padding-left: 30px;
 }
 .image-container.two{
-	background: url("../img/photos-08.jpg") center center no-repeat;
-    background-size: cover;
-    text-align: center;
-    padding-left: 0px;
-}
-.image-container.three{
 	background: url("../img/photos-07.jpg") center center no-repeat;
     background-size: cover;
-    text-align: right;
-    padding-right: 30px;
+    text-align: center;
+}
+.image-container.three{
+	background: url("../img/photos-08.jpg") center center no-repeat;
+  background-size: cover;
+  padding-right: 30px;
+  text-align: right;
 }
 .image-container.dron{
 	background: url("../img/photos-09.jpg") center center no-repeat;
@@ -163,6 +171,10 @@ p {
 .image-subtitle-dron{
 	font-size: 70px;
 	line-height: 60px;
+}
+.image-description {
+	font-size: 26px;
+	line-height: 1.2;
 }
 .footer-container{
 	background-color: #5a75b4;
