@@ -1,4 +1,6 @@
-
+a, a:hover {
+	text-decoration: none;
+}
 .logo-navbar{
 	width: 80px;
 	height: auto;
@@ -39,6 +41,9 @@
 }
 .navbar-default .navbar-nav>li>a{
 	color: #151e34;
+}
+.navbar-default .navbar-nav>li>a:hover {
+	font-weight: 700;
 }
 .header-container{
 	background: url("../img/photos-03.jpg") center center no-repeat;
@@ -188,6 +193,10 @@ p {
 }
 .footer-links{
 	font-size: 15px;
+}
+.footer-links a {
+	color: white;
+	text-decoration: none;
 }
 .footer-contact{
 	text-align: right;
