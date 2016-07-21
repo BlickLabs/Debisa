@@ -1,6 +1,9 @@
 a, a:hover {
 	text-decoration: none;
 }
+.text-center {
+	text-align: center;
+}
 .logo-navbar{
 	width: 80px;
 	height: auto;
@@ -20,9 +23,12 @@ a, a:hover {
 	color: #151e34;
 	font-size: 18px;
 	position: fixed;
-    top: 0;
-    width: 100%;
-    border-radius: 0;
+  top: 0;
+  width: 100%;
+  border-radius: 0;
+}
+.navbar-default .container-fluid {
+	padding: 0;
 }
 .navbar-default .navbar-toggle {
     border: none;
@@ -31,8 +37,9 @@ a, a:hover {
     background-color: transparent;
 }
 .navbar-collapse{
-	padding-left: 50px;
-	padding-right: 30px;
+	margin: 0 auto !important;
+	max-width: 1540px;
+	padding: 0 50px;
 }
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{
 	color: #151e34;
@@ -101,6 +108,11 @@ p {
 	font-size: 15px;
 	letter-spacing: 2px;
 }
+.trunz-description {
+	color: #878787;
+	font-size: 19px;
+	margin-bottom: 30px;
+}
 .row{
 	margin: 0px;
 }
@@ -114,12 +126,13 @@ p {
 	vertical-align: top;
 }
 .borders{
-	padding-left: 50px;
-	padding-right: 50px;
+	margin: 0 auto;
+	max-width: 1540px;
+	padding: 0 50px;
 }
 .filler{
-	padding-top: 140px;
-	padding-bottom: 100px;
+	padding-top: 80px;
+	padding-bottom: 80px;
 }
 .text-filler{
 	background-color: #f2f3f4;
@@ -207,6 +220,7 @@ fieldset {
 	border-color: #ccc;
 	border-style: solid;
 	border-width: 1px;
+	font-size: 19px;
 	padding: 15px 20px 20px 20px;
 	text-align: center;
 }
@@ -236,6 +250,10 @@ legend {
 }
 .about-us-p:not(.first-p) {
 	margin-top: 25px;
+}
+
+#machinery-squares {
+	transform: translateY(-40%);
 }
 
 .footer-container{
