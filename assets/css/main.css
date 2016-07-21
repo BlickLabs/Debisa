@@ -45,6 +45,9 @@ a, a:hover {
 .navbar-default .navbar-nav>li>a:hover {
 	font-weight: 700;
 }
+main {
+	margin-top: 50px;
+}
 .header-container{
 	background: url("../img/photos-03.jpg") center center no-repeat;
     background-size: cover;
@@ -181,6 +184,60 @@ p {
 	font-size: 26px;
 	line-height: 1.2;
 }
+
+/* Sections */
+.section-gray-header {
+	background-color: #F4F4F4;
+	color: #3C3C3B;
+	font-size: 23px;
+	padding: 50px 15% 65px 15%;
+	text-align: center;
+}
+.section-gray-header h2 {
+	font-size: 41px;
+	margin-bottom: 20px;
+}
+.section-gray-header p {
+	line-height: 1.7;
+}
+.section-regular-text {
+	font-size: 19px;
+}
+fieldset {
+	border-color: #ccc;
+	border-style: solid;
+	border-width: 1px;
+	padding: 15px 20px 20px 20px;
+	text-align: center;
+}
+fieldset > *:not(legend) {
+	text-align: left;
+}
+legend {
+	border: none;
+	color: #999999;
+	font-family: "Avenir";
+	font-size: 17px;
+	line-height: 1;
+	margin: 0;
+	padding: 0 10px;
+	width: auto;
+}
+
+#about-us-cover {
+	background-image: url('../img/about-us-cover.jpg');
+	background-position: center;
+	background-size: cover;
+	height: 40vh;
+	min-height: 450px;
+}
+.about-us-text-container {
+	margin: 40px 0 80px 0;
+}
+.about-us-p:not(.first-p) {
+	margin-top: 25px;
+}
+
 .footer-container{
 	background-color: #5a75b4;
 	padding-top: 90px;
