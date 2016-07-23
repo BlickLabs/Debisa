@@ -296,15 +296,21 @@ legend {
 	background: gray;
 	display: block;
 	margin: 0 auto;
+	min-width: 290px;
 	max-width: 924px;
 	width: 60%;
 	height: 350px;
 }
 .machinery-certifications {
 	margin: 60px auto;
+	min-width: 290px;
 	max-width: 924px;
+	padding: 60px 20px 80px 20px;
 	text-align: center;
 	width: 60%;
+}
+.machinery-certifications img {
+	margin: 20px;
 }
 
 .footer-container{
@@ -466,5 +472,11 @@ legend {
 	}
 	.navbar-collapse{
 		padding-bottom: 10px;
+	}
+}
+@media(max-width: 545px){
+	.machinery-certifications {
+		padding-top: 20px;
+		padding-bottom: 40px;
 	}
 }
