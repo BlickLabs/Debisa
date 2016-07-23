@@ -411,6 +411,35 @@ legend {
 .drone-table-container .table-responsive {
 	flex-grow: 1;
 }
+.drone-table-container .table {
+	margin-bottom: 0;
+}
+.drone-table-container .table > * > tr > td,
+.drone-table-container .table > * > tr > th {
+	/*line-height: 1.8 !important;*/
+	padding: 20px 0 !important;
+	border-color: #dedede;
+	border-width: 1px;
+}
+.drone-table-container th.not-bold-th {
+	font-weight: normal;
+}
+.drone-table-container td.bold-td {
+	font-weight: bold;
+	font-family: "Avenir";
+	color: black;
+}
+.drone-table-container thead th:not(.not-bold-th) {
+	font-family: "Avenir";
+	color: black;
+}
+.drone-table-container .text-line {
+	display: block;
+}
+.drone-table-container .text-line:not(:first-child),
+.drone-table-container .table table tr:not(:first-child) td {
+	padding-top: 5px;
+}
 
 .footer-container{
 	background-color: #5a75b4;
