@@ -99,6 +99,12 @@ p {
 .white{
 	color: #FFF;
 }
+.machinery-trunz-text {
+	margin-left: 50px;
+}
+.machinery-trunz-logo {
+	margin-left: 40px;
+}
 .trunz-title{
 	color: #3c3c3b;
 	font-size: 26px;
@@ -386,6 +392,15 @@ legend {
 	#machinery-squares {
 		margin-top: 0;
 		margin-bottom: 0;
+	}
+	.machinery-trunz-logo {
+		margin-left: 0;
+	}
+	.machinery-trunz-text {
+		margin-left: 0;
+		margin-top: 30px;
+		text-align: center !important;
+		margin-bottom: 40px;
 	}
 	.machinery-boxes {
 		display: block;
