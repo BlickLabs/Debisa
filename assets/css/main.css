@@ -363,7 +363,7 @@ legend {
 	position: relative;
 	top: 50%;
 	transform: translateY(-50%);
-	width: 55%;
+	width: 86%;
 }
 #drone-section-header .small-text {
 	display: block;
@@ -375,6 +375,41 @@ legend {
 	font-size: 70px;
 	line-height: 0.9;
 	text-align: center;
+}
+#drone-section-content {
+	background: #f4f4f4;
+	color: #3C3C3B;
+	font-family: "CatamaranLight";
+	padding: 80px 0 140px 0;
+}
+#drone-section-content p {
+	margin: 0 auto;
+	max-width: 800px;
+	width: 70%;
+}
+#drone-section-content ul {
+	color: #5a75b4;
+	list-style: square;
+	margin: 20px auto 0 auto;
+	max-width: 700px;
+	width: 60%;
+}
+#drone-section-content ul span{
+	color: #3C3C3B;
+}
+.drone-table-container {
+	background: white;
+	display: flex;
+	margin-top: 100px;
+}
+.drone-table-container::before {
+	background: #5a75b4;
+	content: '';
+	margin-right: 30px;
+	width: 30px; 
+}
+.drone-table-container .table-responsive {
+	flex-grow: 1;
 }
 
 .footer-container{
