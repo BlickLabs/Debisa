@@ -277,6 +277,7 @@ legend {
 	display: flex;
 	max-width: 1115px;
 	margin: 40px auto 90px auto;
+	width: 90%;
 }
 .machinery-boxes fieldset {
 	width: 50%;
@@ -319,6 +320,46 @@ legend {
 @media(max-width: 1200px){
 	.about-us-text-container {
 		width: 90%;
+	}
+	.machinery-header {
+		padding-bottom: 120px;
+	}
+}
+@media(max-width: 992px){
+	.machinery-header {
+		padding-bottom: 80px;
+	}
+}
+@media(max-width: 769px){
+	.footer-contact{
+		text-align: center;
+		padding-top: 30px;
+		padding-right: 0px;
+	}
+	.footer-info{
+		text-align: center;
+		padding-top: 0px;
+		padding-bottom: 20px;
+		padding-left: 0px;
+	}
+	.about-us-text-container {
+		display: block;
+		text-align: center;
+		width: 85%;
+	}
+	.about-us-image {
+		display: inline-block;
+	}
+	.about-us-text {
+		text-align: left;
+		margin: 50px 0 0 0;
+	}
+	.machinery-header {
+		padding-bottom: 50px;
+	}
+	#machinery-squares {
+		margin-top: 0;
+		margin-bottom: 0;
 	}
 }
 @media(max-width: 680px){
@@ -393,30 +434,5 @@ legend {
 	}
 	.navbar-collapse{
 		padding-bottom: 10px;
-	}
-}
-@media(max-width: 769px){
-	.footer-contact{
-		text-align: center;
-		padding-top: 30px;
-		padding-right: 0px;
-	}
-	.footer-info{
-		text-align: center;
-		padding-top: 0px;
-		padding-bottom: 20px;
-		padding-left: 0px;
-	}
-	.about-us-text-container {
-		display: block;
-		text-align: center;
-		width: 85%;
-	}
-	.about-us-image {
-		display: inline-block;
-	}
-	.about-us-text {
-		text-align: left;
-		margin: 50px 0 0 0;
 	}
 }
