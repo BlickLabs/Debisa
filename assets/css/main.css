@@ -367,6 +367,18 @@ legend {
 		margin-top: 0;
 		margin-bottom: 0;
 	}
+	.machinery-boxes {
+		display: block;
+	}
+	.machinery-boxes fieldset {
+		width: 100%;
+	}
+	.machinery-boxes fieldset:first-child {
+		margin: 0;
+	}
+	.machinery-boxes fieldset:last-child {
+		margin: 40px 0 0 0;
+	}
 }
 @media(max-width: 680px){
     .logo-navbar{
