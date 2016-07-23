@@ -298,6 +298,31 @@ legend {
 	max-width: 1540px;
 	margin: 40px auto;
 }
+/*#machinery-graphic fieldset {
+	margin: 30px auto;
+	padding-bottom: 0;
+	width: 80%;
+}
+#machinery-graphic .graphic-columns {
+	columns: 2;
+  counter-reset: item;
+	list-style-type: none;
+}
+#machinery-graphic .graphic-columns li {
+	align-items: flex-start;
+	display: flex;
+}
+#machinery-graphic .graphic-columns li:not(:first-child) {
+	margin-top: 7px;
+}
+#machinery-graphic .graphic-columns li::before {
+	color: #c0262c;
+	content: counter(item);
+  counter-increment: item;
+  font-size: 28px;
+  line-height: 0.9;
+  margin-right: 10px;
+}*/
 .machinery-video {
 	background: gray;
 	display: block;
