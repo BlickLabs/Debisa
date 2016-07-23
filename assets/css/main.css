@@ -292,6 +292,20 @@ legend {
 	max-width: 1540px;
 	margin: 40px auto;
 }
+.machinery-video {
+	background: gray;
+	display: block;
+	margin: 0 auto;
+	max-width: 924px;
+	width: 60%;
+	height: 350px;
+}
+.machinery-certifications {
+	margin: 60px auto;
+	max-width: 924px;
+	text-align: center;
+	width: 60%;
+}
 
 .footer-container{
 	background-color: #5a75b4;
