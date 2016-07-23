@@ -288,11 +288,17 @@ legend {
 .machinery-boxes fieldset:last-child {
 	margin-left: 15px;
 }
+#machinery-graphic {
+	max-width: 1540px;
+	margin: 40px auto;
+}
 
 .footer-container{
 	background-color: #5a75b4;
 	padding-top: 90px;
 	padding-bottom: 90px;
+	max-width: 1540px;
+	margin: 0 auto;
 }
 .footer-logo{
 	width: 200px;
