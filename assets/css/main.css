@@ -338,7 +338,7 @@ legend {
 	height: 350px;
 }
 .machinery-certifications {
-	margin: 60px auto;
+	margin: 60px auto !important;
 	min-width: 290px;
 	max-width: 924px;
 	padding: 60px 20px 80px 20px;
