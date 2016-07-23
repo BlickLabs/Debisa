@@ -1,6 +1,12 @@
 a, a:hover {
 	text-decoration: none;
 }
+body {
+	font-size: 19px;
+}
+.light-gray-text {
+	color: #878787;
+}
 .text-center {
 	text-align: center;
 }
@@ -260,8 +266,26 @@ legend {
 	margin-top: 25px;
 }
 
+.machinery-header {
+	padding-bottom: 160px;
+}
 #machinery-squares {
-	transform: translateY(-40%);
+	margin-top: -10%;
+	margin-bottom: 15px;
+}
+.machinery-boxes {
+	display: flex;
+	max-width: 1115px;
+	margin: 40px auto 90px auto;
+}
+.machinery-boxes fieldset {
+	width: 50%;
+}
+.machinery-boxes fieldset:first-child {
+	margin-right: 15px;
+}
+.machinery-boxes fieldset:last-child {
+	margin-left: 15px;
 }
 
 .footer-container{
