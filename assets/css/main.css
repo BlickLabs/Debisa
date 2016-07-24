@@ -136,7 +136,8 @@ p {
 .row.center-cols {
 	text-align: center;
 }
-.row.center-cols > div {
+.row.center-cols > div,
+.row.center-cols > fieldset {
 	display: inline-block;
 	float: none;
 	text-align: initial;
@@ -350,13 +351,43 @@ legend {
 }
 
 .machinery-type-header {
+	margin-top: 70px;
 	padding-bottom: 0;
-	padding-left: 80px;
-	padding-right: 80px;
+	padding-left: 70px;
+	padding-right: 70px;
+	padding-top: 80px;
 }
 .machinery-type-header img {
 	margin-bottom: -5px;
 	width: 100%;
+}
+.machinery-type-subsection {
+	margin: 70px auto 0 auto;
+	width: 93%;
+}
+.machinery-type-subsection:last-child {
+	margin-bottom: 70px;
+}
+.machinery-type-subsection h3 {
+	font-size: 33px;
+	text-align: center;
+}
+.machinery-type-subsection .items-container {
+	display: flex;
+	justify-content: center;
+}
+.machinery-type-subsection .items-container.one-item fieldset {
+	width: 60%;
+}
+.machinery-type-subsection .items-container.two-items fieldset {
+	width: 50%;
+}
+.machinery-type-subsection .items-container.three-items fieldset {
+	width: 33%;
+}
+.machinery-type-subsection fieldset {
+	margin: 20px 15px 0 15px;
+	text-align: center !important;
 }
 
 .machinery-item-header {
@@ -598,13 +629,20 @@ legend {
 	#drone-section-header .big-text {
 		font-size: 40px;
 	}
+	.machinery-type-subsection .items-container {
+		display: block;
+	}
+	.machinery-type-subsection .items-container fieldset {
+		margin: 30px auto 0 auto;
+		width: 80% !important;
+	}
 }
 @media(max-width: 680px){
-    .logo-navbar{
-    	margin: auto;
-    }
-    .navbar-default .navbar-nav>li>a {
-	    text-align: center;
+  .logo-navbar{
+  	margin: auto;
+  }
+  .navbar-default .navbar-nav>li>a {
+    text-align: center;
 	}
 	.logo-link{
 		padding-right: 0px !important;
