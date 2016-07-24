@@ -1,0 +1,18 @@
+{
+  "name": "debisa",
+  "homepage": "https://github.com/BlickLabs/Debisa",
+  "authors": [
+    "Alan Sanchez <sanchezpineda03@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
