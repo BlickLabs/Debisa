@@ -97,7 +97,7 @@
 					<div class="col-md-4 col-sm-4 col-xs-12">
 						<div class="footer-info">
 							<p class="footer-links white catamaran"><a href="http://grupodebisa.com/">GRUPO DEBISA</a></p>
-							<p class="footer-links white catamaran"><a href="#">CONT&Aacute;CTANOS</a></p>
+							<p class="footer-links white catamaran"><a href="#" data-toggle="modal" data-target="#contact-modal">CONT&Aacute;CTANOS</a></p>
 							<p class="footer-links white catamaran"><a href="nosotros.html">NOSOTROS</a></p>
 						</div>
 					</div>
@@ -116,8 +116,27 @@
 			</div>
 			</div>
 		</main>
+		<div id="contact-modal" class="modal fade" role="dialog">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-body">
+						<a href="#" class="close-modal" data-dismiss="modal">X</a>
+						<img src="assets/img/logos/logos-05.png" alt="">
+						<form action="">
+							<input id="input_contact_name" name="contact_name" type="text" class="full-size" placeholder="NOMBRE COMPLETO" />
+							<div>
+								<input id="input_contact_email" name="contact_email" type="email" class="medium-size" placeholder="CORREO ELECTRÓNICO" />
+								<input id="input_contact_phone" name="contact_phone" type="tel" class="medium-size" placeholder="TELÉFONO (OPCIONAL)" />
+							</div>
+							<textarea id="input_contact_message" name="contact_message" type="text" class="full-size" placeholder="INTERÉS ESPECIAL O MENSAJE"></textarea>
+							<button class="send-button" type="submit">enviar</button>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
 		<footer>
-			<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+			<script src="http://127.0.0.1:8090/js/jquery.min.js"></script>
 			<script src="assets/js/bootstrap.min.js"></script>
 			<script src="assets/js/main.js"></script>
 		</footer>

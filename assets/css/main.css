@@ -531,6 +531,100 @@ legend {
 	padding-top: 5px;
 }
 
+#contact-modal .modal-dialog {
+	background: #5975b4;
+	height: 100%;
+	margin: 0;
+	overflow-y: auto;
+	padding: 5% 13%;
+	width: 100%;
+}
+#contact-modal .modal-content {
+	background: transparent;
+	box-shadow: none;
+	border: none;
+	border-radius: 0;
+	height: 100%;
+	margin: 0 auto;
+	position: relative;
+	text-align: center;
+	width: 100%;
+}
+#contact-modal .modal-content img {
+	display: block;
+	margin: 0 auto;
+}
+#contact-modal .close-modal {
+	color: white;
+	font-family: Avenir;
+	font-size: 30px;
+	position: absolute;
+	right: 0;
+	top: 0;
+	transform: translateX(250%);
+}
+#contact-modal form *:not(button):not(div) {
+	background: transparent;
+	border-color: white;
+	border-style: solid;
+	border-width: 0 0 1px 0;
+	color: white;
+	font-family: Catamaran;
+	font-size: 15px;
+	margin-top: 35px;
+	outline: none;
+	padding: 0 0 10px 0;
+}
+#contact-modal form *.full-size {
+	width: 100%;
+}
+#contact-modal form *.medium-size {
+	width: 46%;
+}
+#contact-modal form *.medium-size:first-child {
+	float: left;
+}
+#contact-modal form *.medium-size:last-child {
+	float: right;
+}
+#contact-modal form *:not(div):not(button)::-moz-placeholder {
+  color: white;
+	letter-spacing: 1.5px;
+}
+#contact-modal form *:not(div):not(button)::-webkit-input-placeholder {
+  color: white;
+	letter-spacing: 1.5px;
+}
+#contact-modal form *:not(div):not(button):-ms-input-placeholder {
+  color: white;
+	letter-spacing: 1.5px;
+}
+#contact-modal form *:not(div):not(button):-moz-placeholder {
+  color: white;
+	letter-spacing: 1.5px;
+}
+#contact-modal textarea {
+	height: 33px;
+	resize: none;
+	transition: all 0.2s;
+}
+#contact-modal textarea:focus {
+	height: 66px;
+}
+#contact-modal .send-button {
+	background: #629de1;
+	border: none;
+	border-radius: 20px;
+	color: white;
+	font-family: Catamaran;
+	font-variant: small-caps;
+	font-size: 23px;
+	letter-spacing: 2px;
+	margin-top: 90px;
+	outline: none;
+	padding: 2px 30px;
+}
+
 .footer-container{
 	background-color: #5a75b4;
 	padding-top: 90px;
