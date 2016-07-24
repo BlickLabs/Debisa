@@ -389,6 +389,12 @@ legend {
 	margin: 20px 15px 0 15px;
 	text-align: center !important;
 }
+.machinery-type-subsection fieldset img {
+	height: auto;
+	max-height: 250px;
+	max-width: 100%;
+	width: auto;
+}
 
 .machinery-item-header {
 	margin: 80px auto 40px auto;
