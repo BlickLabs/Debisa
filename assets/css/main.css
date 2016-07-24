@@ -349,6 +349,16 @@ legend {
 	margin: 20px;
 }
 
+.machinery-type-header {
+	padding-bottom: 0;
+	padding-left: 80px;
+	padding-right: 80px;
+}
+.machinery-type-header img {
+	margin-bottom: -5px;
+	width: 100%;
+}
+
 #drone-section-header {
 	background-image: url('../img/photos-10.jpg');
 	background-position: center;
