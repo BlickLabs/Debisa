@@ -552,7 +552,7 @@ legend {
 }
 #contact-modal .modal-content img {
 	display: block;
-	margin: 0 auto;
+	margin: 0 auto 60px auto;
 }
 #contact-modal .close-modal {
 	color: white;
@@ -571,7 +571,7 @@ legend {
 	color: white;
 	font-family: Catamaran;
 	font-size: 15px;
-	margin-top: 35px;
+	margin-top: 40px;
 	outline: none;
 	padding: 0 0 10px 0;
 }
