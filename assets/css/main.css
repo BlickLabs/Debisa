@@ -359,6 +359,49 @@ legend {
 	width: 100%;
 }
 
+.machinery-item-header {
+	margin: 80px auto 40px auto;
+	padding: 10px 20px;
+	width: 80%;
+}
+.machinery-item-picture {
+	margin: 0 auto 80px auto;
+	min-width: 270px;
+	width: 50%;
+}
+.machinery-item-text {
+	color: #3C3C3B;
+	font-family: "CatamaranLight";
+	margin: 0 auto;
+	min-width: 280px;
+	width: 80%;
+}
+.machinery-item-text:not(:first-of-type) {
+	margin-top: 20px;
+}
+.machinery-item-characteristics {
+	margin: 70px auto 60px auto;
+	min-width: 280px;
+	padding-bottom: 10px;
+	width: 45%;
+}
+.machinery-item-characteristics ul {
+	color: #3C3C3B;
+	font-family: CatamaranLight;
+	list-style: none;
+	margin-left: -30px;
+	line-height: 1.8;
+}
+.machinery-item-back {
+	color: #5A75B4;
+	display: inline-block;
+	font-family: CatamaranLight;
+	font-size: 22px;
+	font-variant: small-caps;
+	margin-left: 10%;
+	margin-bottom: 50px;
+}
+
 #drone-section-header {
 	background-image: url('../img/photos-10.jpg');
 	background-position: center;
