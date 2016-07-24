@@ -37,12 +37,15 @@ jspm_packages
 .node_repl_history
 
 bower_components/
-!bower_components/font-awesome/css
+!bower_components/bootstrap/dist/css
+!bower_components/bootstrap/dist/js
 !bower_components/jquery/dist
 !bower_components/jquery-validation/dist
-bower_components/font-awesome/css/*
+bower_components/bootstrap/dist/css/*
+bower_components/bootstrap/dist/js/*
 bower_components/jquery/dist/*
 bower_components/jquery-validation/dist/*
-!bower_components/font-awesome/css/font-awesome.min.css
+!bower_components/bootstrap/dist/css/bootstrap.min.css
+!bower_components/bootstrap/dist/js/bootstrap.min.js
 !bower_components/jquery/dist/jquery.min.js
 !bower_components/jquery-validation/dist/jquery.validate.min.js
