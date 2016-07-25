@@ -7,6 +7,8 @@
 		<link rel="stylesheet" type="text/css" href="assets/fonts/fonts.css">
 		<link rel="stylesheet" type="text/css" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
 		<link rel="stylesheet" type="text/css" href="assets/css/main.css">
+  	<link rel="shortcut icon" type="image/x-icon"
+    	href="favicon.png"/>
 	</head>
 	<body id="init">
 		<nav class="navbar navbar-default">
@@ -25,7 +27,7 @@
 		        <li><a href="nosotros.html" class="catamaranMedium black">Nosotros</a></li>
 		        <li><a href="maquinaria.html" class="catamaranMedium black">Maquinaria</a></li>
 		        <li><a href="dron.html" class="catamaranMedium black">Dron</a></li>
-		        <li><a href="#" class="catamaranMedium black">Contacto</a></li>
+		        <li><a href="#" class="catamaranMedium black" data-toggle="modal" data-target="#contact-modal">Contacto</a></li>
 		      </ul>
 		      <ul class="nav navbar-nav navbar-right">
 		        <li><a href="index.html" class="logo-link"><img src="assets/img/logos/logos-02.png" alt="" class="logo-navbar"></a></li>
@@ -120,7 +122,7 @@
 			<div class="modal-dialog">
 				<div class="modal-content">
 					<div class="modal-body">
-						<a href="#" class="close-modal" data-dismiss="modal">X</a>
+						<a href="#" class="close-modal" data-dismiss="modal"><img src="assets/img/icons/close-modal.png" width="30px" /></a>
 						<img src="assets/img/logos/logos-06.png" height="50px">
 						<form action="">
 							<input id="input_contact_name" name="contact_name" type="text" class="full-size" placeholder="NOMBRE COMPLETO" />
