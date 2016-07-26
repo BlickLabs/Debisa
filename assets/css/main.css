@@ -397,7 +397,8 @@ legend {
 	margin: 20px 15px 0 15px;
 	text-align: center !important;
 }
-.machinery-type-subsection fieldset img {
+.machinery-type-subsection fieldset img,
+.machinery-item-picture img {
 	height: auto;
 	max-height: 250px;
 	max-width: 100%;
@@ -742,6 +743,15 @@ legend {
 	}
 	.machinery-boxes fieldset:last-child {
 		margin: 40px 0 0 0;
+	}
+	.machinery-type-header {
+		padding: 0;
+	}
+	.machinery-type-header img {
+		margin: 0;
+	}
+	.machinery-type-header + .machinery-type-subsection {
+		margin-top: 55px;
 	}
 	#drone-section-header {
 		margin-top: 60px;
