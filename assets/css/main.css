@@ -698,7 +698,7 @@ legend {
 		line-height: 53px;
 	}
 }
-@media(max-width: 769px){
+@media(max-width: 768px){
 	.footer-contact{
 		text-align: center;
 		padding-top: 30px;
