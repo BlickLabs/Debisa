@@ -84,10 +84,12 @@ z-index: 10000;
 	padding-left: 30px;
 	margin-bottom: 0;
 }
-.header-text{
+.header-text {
+	position: relative;
 	text-align: left;
+	margin-left: 50px;
 	list-style: none;
-	margin-top: 40vh;
+	top: 50%;
 	transform: translateY(-50%);
 }
 .header-title{
@@ -789,6 +791,9 @@ legend {
   	margin-left: 22.5px;
   	margin-top: 9px;
   }
+	.header-text {
+		margin-left: 20px;
+	}
   .navbar-mobile-logo img {
   	height: 30px;
   }
@@ -809,9 +814,6 @@ legend {
 	}
 	.header-container{
 		height: 70vh;
-	}
-	.header-text{
-		margin-top: 35vh;
 	}
 	.header-description{
 		font-size: 17px;
