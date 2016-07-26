@@ -684,6 +684,14 @@ legend {
 		text-align: center !important;
 		margin-bottom: 40px;
 	}
+	.header-title{
+		font-size: 50px;
+		padding-bottom: 10px;
+	}
+	.header-subtitle{
+		font-size: 70px;
+		line-height: 53px;
+	}
 }
 @media(max-width: 769px){
 	.footer-contact{
@@ -758,13 +766,8 @@ legend {
 	.header-container{
 		height: 70vh;
 	}
-	.header-title{
-		font-size: 25px;
-		padding-bottom: 10px;
-	}
-	.header-subtitle{
-		font-size: 60px;
-		line-height: 53px;
+	.header-text{
+		margin-top: 35vh;
 	}
 	.header-description{
 		font-size: 17px;
@@ -814,6 +817,14 @@ legend {
 	}
 	.navbar-collapse{
 		padding-bottom: 10px;
+	}
+	.header-title{
+		font-size: 25px;
+		padding-bottom: 10px;
+	}
+	.header-subtitle{
+		font-size: 58px;
+		line-height: 53px;
 	}
 }
 @media(max-width: 545px){
