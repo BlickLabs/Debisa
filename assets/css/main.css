@@ -206,9 +206,13 @@ p {
 .image-title{
 	font-size: 42px;
 }
+.image-container.one .image-subtitle {
+	margin-left: -7px;
+}
 .image-subtitle{
 	font-size: 88px;
 	line-height: 60px;
+	margin-left: -4px;
 }
 .image-subtitle-dron{
 	font-size: 70px;
@@ -794,9 +798,13 @@ legend {
 	.image-title{
 		font-size: 38px;
 	}
-	.image-subtitle{
+	.image-subtitle {
 		font-size: 68px;
 		line-height: 60px;
+		margin-left: -3px;
+	}
+	.image-container.one .image-subtitle {
+		margin-left: -5px;
 	}
 	.image-subtitle-dron{
 		font-size: 44px;
