@@ -341,13 +341,10 @@ legend {
   margin-right: 10px;
 }*/
 .machinery-video {
-	background: gray;
-	display: block;
 	margin: 0 auto;
 	min-width: 290px;
 	max-width: 924px;
 	width: 60%;
-	height: 350px;
 }
 .machinery-certifications {
 	margin: 60px auto !important;
