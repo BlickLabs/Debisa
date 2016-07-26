@@ -670,6 +670,20 @@ legend {
 	.machinery-header {
 		padding-bottom: 80px;
 	}
+	.trunz-title {
+		margin-top: 50px;
+	}
+	.trunz-link{
+		margin: 60px auto 0 auto;
+	}
+	.machinery-trunz-logo {
+		margin-left: 0;
+	}
+	.machinery-trunz-text {
+		margin-left: 0;
+		text-align: center !important;
+		margin-bottom: 40px;
+	}
 }
 @media(max-width: 769px){
 	.footer-contact{
@@ -701,15 +715,6 @@ legend {
 	#machinery-squares {
 		margin-top: 0;
 		margin-bottom: 0;
-	}
-	.machinery-trunz-logo {
-		margin-left: 0;
-	}
-	.machinery-trunz-text {
-		margin-left: 0;
-		margin-top: 30px;
-		text-align: center !important;
-		margin-bottom: 40px;
 	}
 	.machinery-boxes {
 		display: block;
@@ -778,9 +783,6 @@ legend {
 	.trunz-description{
 		text-align: center;
 		padding-right: 0px;
-	}
-	.trunz-link{
-		margin: auto;
 	}
 	.filler-content{
 		padding-right: 20px;
