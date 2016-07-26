@@ -61,6 +61,9 @@ body {
 .navbar-default .navbar-nav>li>a:hover {
 	font-weight: 700;
 }
+.navbar-mobile-logo {
+	display: none;
+}
 main {
 	margin-top: 50px;
 }
@@ -778,6 +781,20 @@ legend {
 	}
 }
 @media screen and (max-width: 767px) {
+  .navbar-default .navbar-nav>li>a {
+    text-align: center;
+	}
+  .navbar-nav.navbar-right {
+  	display: none;
+  }
+  .navbar-mobile-logo {
+  	display: inline-block;
+  	margin-left: 22.5px;
+  	margin-top: 9px;
+  }
+  .navbar-mobile-logo img {
+  	height: 30px;
+  }
 	.footer-container > .row > div  {
 		padding-right: 0;
 	}
@@ -792,15 +809,6 @@ legend {
 	}
 	#contact-modal .close-modal {
 		transform: none;
-	}
-  .logo-navbar{
-  	margin: auto;
-  }
-  .navbar-default .navbar-nav>li>a {
-    text-align: center;
-	}
-	.logo-link{
-		padding-right: 0px !important;
 	}
 	.header-container{
 		height: 70vh;
@@ -860,9 +868,6 @@ legend {
 	.image-container.dron{
 		padding-left: 0px;
 		padding-bottom: 100px;
-	}
-	.navbar-collapse{
-		padding-bottom: 10px;
 	}
 	.header-title{
 		font-size: 25px;
