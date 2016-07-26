@@ -107,6 +107,7 @@ p {
 	color: #FFF;
 }
 .machinery-trunz-text {
+	margin-bottom: 30px;
 	margin-left: 50px;
 }
 .machinery-trunz-logo {
@@ -686,7 +687,7 @@ legend {
 	.machinery-trunz-text {
 		margin-left: 0;
 		text-align: center !important;
-		margin-bottom: 40px;
+		margin-bottom: 45px;
 	}
 	.header-title{
 		font-size: 50px;
