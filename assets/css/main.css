@@ -702,13 +702,15 @@ legend {
 	.footer-contact{
 		text-align: center;
 		padding-top: 30px;
-		padding-right: 0px;
 	}
 	.footer-info{
 		text-align: center;
 		padding-top: 0px;
 		padding-bottom: 20px;
 		padding-left: 0px;
+	}
+	.footer-container > .row > div {
+		padding-left: 0;
 	}
 	.about-us-text-container {
 		display: block;
@@ -756,6 +758,14 @@ legend {
 	.machinery-type-subsection .items-container fieldset {
 		margin: 30px auto 0 auto;
 		width: 80% !important;
+	}
+}
+@media screen and (max-width: 767px) {
+	.footer-container > .row > div  {
+		padding-right: 0;
+	}
+	.footer-contact {
+		padding-right: 0;
 	}
 }
 @media(max-width: 680px){
