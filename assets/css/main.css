@@ -559,7 +559,7 @@ legend {
 	text-align: center;
 	width: 100%;
 }
-#contact-modal .modal-content img {
+#contact-modal .modal-body > img {
 	display: block;
 	margin: 0 auto 60px auto;
 }
@@ -786,6 +786,13 @@ legend {
 	}
 }
 @media(max-width: 680px){
+	#contact-modal form *.medium-size {
+		width: 100%;
+		float: none;
+	}
+	#contact-modal .close-modal {
+		transform: none;
+	}
   .logo-navbar{
   	margin: auto;
   }
@@ -865,6 +872,15 @@ legend {
 		font-size: 58px;
 		line-height: 53px;
 	}
+	.section-gray-header {
+		font-size: 16px;
+	}
+	.section-gray-header h2{
+		font-size: 30px;
+	}
+	.filler-content {
+		font-size: 24px;
+	}
 }
 @media(max-width: 545px){
 	.machinery-certifications {
@@ -883,5 +899,29 @@ legend {
 	}
 	.drone-table-container {
 		margin-top: 60px;
+	}
+}
+@media screen and (max-width: 390px) {
+	body, fieldset {
+		font-size: 16px;
+	}
+	.filler {
+		padding-bottom: 60px;
+		padding-top: 60px;
+	}
+	.machinery-boxes {
+		margin-bottom: 50px;
+	}
+	#contact-modal textarea {
+		height: 56px;
+	}
+	#contact-modal textarea:focus {
+		height: 120px;
+	}
+	.trunz-title {
+		font-size: 23px;
+	}
+	.trunz-description {
+		font-size: 16px;
 	}
 }
