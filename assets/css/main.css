@@ -713,6 +713,13 @@ legend {
 	.footer-container > .row > div {
 		padding-left: 0;
 	}
+	.dron .image-title {
+		font-size: 30px;
+	}
+	.image-subtitle-dron {
+		font-size: 50px;
+		line-height: 0.9;
+	}
 	.about-us-text-container {
 		display: block;
 		text-align: center;
@@ -827,9 +834,12 @@ legend {
 	.image-container.one .image-subtitle {
 		margin-left: -5px;
 	}
-	.image-subtitle-dron{
-		font-size: 44px;
-		line-height: 60px;
+	.dron .image-title {
+		font-size: 24px;
+	}
+	.image-subtitle-dron {
+		font-size: 32px;
+		line-height: 1;
 	}
 	.image-container{
 		text-align: center !important;
