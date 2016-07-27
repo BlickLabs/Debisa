@@ -450,7 +450,8 @@ legend {
 	margin-left: -30px;
 	line-height: 1.8;
 }
-.machinery-item-back {
+.machinery-item-back,
+.machinery-back {
 	color: #5A75B4;
 	display: inline-block;
 	font-family: CatamaranLight;
@@ -458,6 +459,12 @@ legend {
 	font-variant: small-caps;
 	margin-left: 10%;
 	margin-bottom: 50px;
+}
+
+.machinery-back {
+	margin-bottom: 60px;
+	margin-left: 5%;
+	margin-top: 70px;
 }
 
 #drone-section-header {
