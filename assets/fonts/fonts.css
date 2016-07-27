@@ -13,6 +13,13 @@
   font-family: AvenirMedium;
 }
 @font-face {
+  font-family: "AvenirHeavy";
+  src: url("../fonts/AvenirLTStd-Heavy.otf");
+}
+.avenirMedium{
+  font-family: AvenirHeavy;
+}
+@font-face {
   font-family: "Catamaran";
   src: url("../fonts/Catamaran-Bold.ttf");
 }
