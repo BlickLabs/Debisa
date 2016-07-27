@@ -279,6 +279,7 @@ legend {
 	min-height: 200px;
 }
 .about-us-text-container {
+	align-items: stretch;
 	display: flex;
 	margin: 40px auto 80px auto;
 	width: 78%;
@@ -289,6 +290,15 @@ legend {
 }
 .about-us-p:not(.first-p) {
 	margin-top: 25px;
+}
+.about-us-image fieldset {
+	max-height: 100%;
+	width: auto;
+}
+.about-us-image img {
+	height: auto;
+	min-width: 230px;
+	width: 100%;
 }
 
 .machinery-header {
