@@ -3,15 +3,19 @@
   <head>
     <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Debisa Systems</title>
+    <title>Agua Salada | Debisa Systems</title>
     <link rel="stylesheet" type="text/css" href="assets/fonts/fonts.css">
     <link rel="stylesheet" type="text/css" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="assets/css/main.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/main.css">
+    <link rel="shortcut icon" type="image/x-icon"
+      href="favicon.png"/>
   </head>
   <body id="init">
     <nav class="navbar navbar-default">
       <div class="container-fluid">
         <div class="navbar-header">
+          <a href="index.html" class="navbar-mobile-logo"><img src="assets/img/logos/logos-02.png" /></a>
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false">
             <span class="sr-only">Toggle navigation</span>
             <span class="icon-bar"></span>
@@ -25,7 +29,7 @@
             <li><a href="nosotros.html" class="catamaranMedium black">Nosotros</a></li>
             <li class="active"><a href="maquinaria.html" class="catamaranMedium black">Maquinaria</a></li>
             <li><a href="dron.html" class="catamaranMedium black">Dron</a></li>
-            <li><a href="#" class="catamaranMedium black">Contacto</a></li>
+            <li><a href="#" class="catamaranMedium black" data-toggle="modal" data-target="#contact-modal">Contacto</a></li>
           </ul>
           <ul class="nav navbar-nav navbar-right">
             <li><a href="index.html" class="logo-link"><img src="assets/img/logos/logos-02.png" alt="" class="logo-navbar"></a></li>
@@ -75,28 +79,48 @@
         </div>
       </div>
       <div class="footer-container" id="contact">
-        <div class="row">
-          <div class="col-md-4 col-sm-4 col-xs-12">
-            <div class="footer-info">
-              <p class="footer-links white catamaran"><a href="http://grupodebisa.com/">GRUPO DEBISA</a></p>
-              <p class="footer-links white catamaran"><a href="#">CONT&Aacute;CTANOS</a></p>
-              <p class="footer-links white catamaran"><a href="nosotros.html">NOSOTROS</a></p>
+          <div class="row">
+            <div class="col-md-4 col-sm-4 col-xs-12">
+              <div class="footer-info">
+                <p class="footer-links white catamaran"><a href="http://grupodebisa.com/">GRUPO DEBISA</a></p>
+                <p class="footer-links white catamaran"><a href="#" data-toggle="modal" data-target="#contact-modal">CONT&Aacute;CTANOS</a></p>
+                <p class="footer-links white catamaran"><a href="nosotros.html">NOSOTROS</a></p>
+              </div>
             </div>
-          </div>
-          <div class="col-md-4 col-sm-4 col-xs-12">
-            <div class="footer-logo">
-              <img src="assets/img/logos/logos-05.png" class="footer-logo img-responsive" alt="">
+            <div class="col-md-4 col-sm-4 col-xs-12">
+              <div class="footer-logo">
+                <img src="assets/img/logos/logos-05.png" class="footer-logo img-responsive" alt="">
+              </div>
             </div>
-          </div>
-          <div class="col-md-4 col-sm-4 col-xs-12">
-            <div class="footer-contact">
-              <p class="footer-links white catamaran">(55) 36402250</p>
-              <p class="footer-links white catamaran">INFO@GRUPODEBISA.COM</p>
+            <div class="col-md-4 col-sm-4 col-xs-12">
+              <div class="footer-contact">
+                <p class="footer-links white catamaran">(55) 36402250</p>
+                <p class="footer-links white catamaran">INFO@GRUPODEBISA.COM</p>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </main>
+    <div id="contact-modal" class="modal fade" role="dialog">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-body">
+            <a href="#" class="close-modal" data-dismiss="modal"><img src="assets/img/icons/close-modal.png" width="30px" /></a>
+            <img src="assets/img/logos/logos-06.png" height="50px">
+            <form action="">
+              <input id="input_contact_name" name="contact_name" type="text" class="full-size" placeholder="NOMBRE COMPLETO" />
+              <div>
+                <input id="input_contact_email" name="contact_email" type="email" class="medium-size" placeholder="CORREO ELECTRÓNICO" />
+                <input id="input_contact_phone" name="contact_phone" type="tel" class="medium-size" placeholder="TELÉFONO (OPCIONAL)" />
+              </div>
+              <textarea id="input_contact_message" name="contact_message" type="text" class="full-size" placeholder="INTERÉS ESPECIAL O MENSAJE"></textarea>
+              <button class="send-button" type="submit">enviar</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
     <footer>
       <script src="bower_components/jquery/dist/jquery.min.js"></script>
       <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
