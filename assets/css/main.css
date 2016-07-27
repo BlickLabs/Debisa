@@ -536,12 +536,11 @@ legend {
 	font-weight: normal;
 }
 .drone-table-container td.bold-td {
-	font-weight: bold;
-	font-family: "Avenir";
+	font-family: "AvenirHeavy";
 	color: black;
 }
 .drone-table-container thead th:not(.not-bold-th) {
-	font-family: "Avenir";
+	font-family: "AvenirHeavy";
 	color: black;
 }
 .drone-table-container .text-line {
