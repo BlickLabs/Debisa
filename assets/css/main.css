@@ -590,7 +590,7 @@ legend {
 	top: 0;
 	transform: translateX(250%);
 }
-#contact-modal form *:not(button):not(div) {
+#contact-modal form *:not(button):not(div):not(label) {
 	background: transparent;
 	border-color: white;
 	border-style: solid;
@@ -607,6 +607,9 @@ legend {
 }
 #contact-modal form *.medium-size {
 	width: 46%;
+}
+#contact-modal form *.medium-size input{
+	width: 100%;
 }
 #contact-modal form *.medium-size:first-child {
 	float: left;
@@ -642,14 +645,23 @@ legend {
 	background: #629de1;
 	border: none;
 	border-radius: 20px;
+	display: block;
 	color: white;
 	font-family: Catamaran;
 	font-variant: small-caps;
 	font-size: 23px;
 	letter-spacing: 2px;
+	margin-left: auto;
+	margin-right: auto;
 	margin-top: 90px;
 	outline: none;
 	padding: 2px 30px;
+}
+label.error {
+	color: white;
+	display: block;
+	margin-top: 7px;
+	text-align: left;
 }
 
 .footer-container{

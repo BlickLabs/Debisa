@@ -1,24 +1,24 @@
-$("#myNavbarWeb a,#myNavbarMobile a, .click-scrolling ").on('click', function (event) {
-    event.preventDefault();
-    var pageRef = $(this).attr("href");
-    var offset = 80;
-    if(pageRef[0] != '#') {
-        $('#navbar-collapse').removeClass('in');
-        window.location.href = pageRef;
-    }
-    else{
-        var hash = this.hash;
-        $('html, body').animate({
-            scrollTop: $(hash).offset().top -50
-        }, 800, function () {
-            $('#navbar-collapse').removeClass('in');
-            window.location.hash = hash;
-        });
-    }
-});
 $('.header-container, .borders, .click-scrolling').click(function () {
     $('#navbar-collapse').removeClass('in');
 });
 $('#navbar-trigger').click(function () {
     $('#navbar-collapse').addClass('in');
+});
+$('#contact-modal form').validate({
+    rules: {
+        contact_name: {
+            required: true
+        },
+        contact_email: {
+            required: true,
+            email: true
+        },
+        contact_phone: {
+            required: true,
+            number: true
+        },
+        contact_message: {
+            required: true
+        }
+    }
 });
