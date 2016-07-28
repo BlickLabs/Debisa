@@ -211,8 +211,12 @@
             <form action="">
               <input id="input_contact_name" name="contact_name" type="text" class="full-size" placeholder="NOMBRE COMPLETO" />
               <div>
-                <input id="input_contact_email" name="contact_email" type="email" class="medium-size" placeholder="CORREO ELECTRÓNICO" />
-                <input id="input_contact_phone" name="contact_phone" type="tel" class="medium-size" placeholder="TELÉFONO (OPCIONAL)" />
+                <div class="medium-size">
+                  <input id="input_contact_email" name="contact_email" type="email" placeholder="CORREO ELECTRÓNICO" />
+                </div>
+                <div class="medium-size">
+                  <input id="input_contact_phone" name="contact_phone" type="tel" placeholder="TELÉFONO (OPCIONAL)" />
+                </div>
               </div>
               <textarea id="input_contact_message" name="contact_message" type="text" class="full-size" placeholder="INTERÉS ESPECIAL O MENSAJE"></textarea>
               <button class="send-button" type="submit">enviar</button>
