@@ -21,7 +21,7 @@ $domain = "sandbox3bfa1334fbee4dcca5b08a9b34b46337.mailgun.org";
 error_log("Antes de enviar el mail", 0);
 
     $result = $mgClient->sendMessage($domain, array(
-        'from' => 'Mavericks - Notificaciones <postmaster@'. $domain .'>',
+        'from' => 'Debisa Systems - Notificaciones <postmaster@'. $domain .'>',
         'to' => $send_to,
         'subject' => 'Nuevo contacto',
         'text' =>
