@@ -46,19 +46,19 @@ $('#contact-modal form').validate({
           url: 'send_mail.php',
           data: $(form).serialize(),
           success: function(data){
-            $(form)
-              .append('<div class="response ok">Your message was sent</div>');
+            $('<div class="alert alert-success">Tu mensaje fue enviado</div>')
+              .insertBefore($(form));
           },
           error: function (data) {
-            $(form)
-              .append('<div class="response error">An error occured: <br/>' + data.statusText + '</div>');
+            $('<div class="alert alert-danger">Ocurrió un error: <br/>' + data.statusText + '</div>')
+              .insertBefore($(form));
           },
           complete: function () {
             $(form)[0].reset();
             setTimeout(function () {
-              $(form).children('.response').remove();
+              $(form).siblings('.alert').remove();
               $('#contact-modal').modal('hide');
-            }, 4000);
+            }, 3000);
           }
         });
       }
