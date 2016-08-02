@@ -16,7 +16,7 @@ $api_key = 'key-eb656047b090ea091ef7c5d2fbd83dc5';
 $send_to = 'sanchezpineda03@gmail.com';
 
 $mgClient = new Mailgun($api_key);
-$domain = "mg.test.com";
+$domain = "sandbox3bfa1334fbee4dcca5b08a9b34b46337.mailgun.org";
 
 error_log("Antes de enviar el mail", 0);
 
@@ -34,7 +34,7 @@ error_log("Antes de enviar el mail", 0);
 
         Nombre del cliente: ' . $name . '
         Correo electrónico: ' . $email. '
-        Tipo: ' . $type. '
+        Teléfono: ' . $phone. '
         Mensaje:
         '. $message .'',
         'html' =>
@@ -44,7 +44,7 @@ error_log("Antes de enviar el mail", 0);
         <ul>
         <li>Nombre del cliente: ' . $name . '</li>
         <li>Correo electrónico: ' . $email. '</li>
-        <li>Tipo: ' . $type. '</li>
+        <li>Teléfono: ' . $phone. '</li>
         <li>Mensaje: <p>'. $message .'</p> </li>
         </ul>
         <hr>

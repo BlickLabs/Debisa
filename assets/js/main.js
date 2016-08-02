@@ -57,7 +57,8 @@ $('#contact-modal form').validate({
             $(form)[0].reset();
             setTimeout(function () {
               $(form).children('.response').remove();
-            }, 5000);
+              $('#contact-modal').modal('hide');
+            }, 4000);
           }
         });
       }
