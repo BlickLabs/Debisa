@@ -4,19 +4,19 @@ error_reporting(E_ALL);
 require './vendor/autoload.php';
 use Mailgun\Mailgun;
 
-$name = $_POST['contact-name'];
-$email = $_POST['contact-email'];
-$type = $_POST['contact-type'];
-$msg = $_POST['contact-message'];
+$name = $_POST['contact_name'];
+$email = $_POST['contact_email'];
+$phone = $_POST['contact_phone'];
+$message = $_POST['contact_message'];
 
 
 /* Desarrollo */
 $api_key = 'key-eb656047b090ea091ef7c5d2fbd83dc5';
 // $send_to = '';
-$send_to = 'luis@mavericks.capital';
+$send_to = 'sanchezpineda03@gmail.com';
 
 $mgClient = new Mailgun($api_key);
-$domain = "mg.mavericks.capital";
+$domain = "mg.test.com";
 
 error_log("Antes de enviar el mail", 0);
 
@@ -36,7 +36,7 @@ error_log("Antes de enviar el mail", 0);
         Correo electrónico: ' . $email. '
         Tipo: ' . $type. '
         Mensaje:
-        '. $msg .'',
+        '. $message .'',
         'html' =>
         '<html>Hola equipo de Mavericks. <br>
 
@@ -45,13 +45,13 @@ error_log("Antes de enviar el mail", 0);
         <li>Nombre del cliente: ' . $name . '</li>
         <li>Correo electrónico: ' . $email. '</li>
         <li>Tipo: ' . $type. '</li>
-        <li>Mensaje: <p>'. $msg .'</p> </li>
+        <li>Mensaje: <p>'. $message .'</p> </li>
         </ul>
         <hr>
         </html>'
     ));
 
-$message = '<div class="alert alert-success" role="alert">¡Tu mensaje ha sido enviado, pronto nos pondremos en contacto contigo!</div>';
-echo $message;
+$response = '<div class="alert alert-success" role="alert">¡Tu mensaje ha sido enviado, pronto nos pondremos en contacto contigo!</div>';
+echo $response;
 
 ?>

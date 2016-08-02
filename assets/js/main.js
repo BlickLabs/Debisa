@@ -33,11 +33,32 @@ $('#contact-modal form').validate({
             email: true
         },
         contact_phone: {
-            required: true,
+            required: false,
             number: true
         },
         contact_message: {
             required: true
         }
-    }
+    },
+    submitHandler: function(form) {
+        $.ajax({
+          type: 'POST',
+          url: 'send_mail.php',
+          data: $(form).serialize(),
+          success: function(data){
+            $(form)
+              .append('<div class="response ok">Your message was sent</div>');
+          },
+          error: function (data) {
+            $(form)
+              .append('<div class="response error">An error occured: <br/>' + data.statusText + '</div>');
+          },
+          complete: function () {
+            $(form)[0].reset();
+            setTimeout(function () {
+              $(form).children('.response').remove();
+            }, 5000);
+          }
+        });
+      }
 });
