@@ -26,7 +26,7 @@ error_log("Antes de enviar el mail", 0);
         'subject' => 'Nuevo contacto',
         'text' =>
 
-        'Hola equipo de Mavericks.
+        'Hola equipo de Debisa Systems.
 
         ' . $name . ' a enviado un nuevo mensaje
 
@@ -38,7 +38,7 @@ error_log("Antes de enviar el mail", 0);
         Mensaje:
         '. $message .'',
         'html' =>
-        '<html>Hola equipo de Mavericks. <br>
+        '<html>Hola equipo de Debisa Systems. <br>
 
         Los datos son los siguientes
         <ul>
