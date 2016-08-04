@@ -728,6 +728,9 @@ label.error {
 		font-size: 70px;
 		line-height: 53px;
 	}
+	#machinery-graphic {
+		display: none;
+	}
 }
 @media(max-width: 768px){
 	.footer-contact{
