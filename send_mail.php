@@ -11,12 +11,12 @@ $message = $_POST['contact_message'];
 
 
 /* Desarrollo */
-$api_key = 'key-eb656047b090ea091ef7c5d2fbd83dc5';
+$api_key = 'key-61ecd102818630207feb04929a82fa42';
 // $send_to = '';
-$send_to = 'sanchezpineda03@gmail.com';
+$send_to = 'info@grupodebisa.com';
 
 $mgClient = new Mailgun($api_key);
-$domain = "sandbox3bfa1334fbee4dcca5b08a9b34b46337.mailgun.org";
+$domain = "mg.debisasystems.com";
 
 error_log("Antes de enviar el mail", 0);
 
