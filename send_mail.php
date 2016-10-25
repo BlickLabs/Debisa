@@ -13,7 +13,7 @@ $message = $_POST['contact_message'];
 /* Desarrollo */
 $api_key = 'key-61ecd102818630207feb04929a82fa42';
 // $send_to = '';
-$send_to = 'info@grupodebisa.com';
+$send_to = 'info@debisasystems.com';
 
 $mgClient = new Mailgun($api_key);
 $domain = "mg.debisasystems.com";
